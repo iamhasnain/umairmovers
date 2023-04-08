@@ -1,0 +1,28 @@
+/* Mobile devices */
+@media (max-width: 767px) {
+    .home-section .carousel .slide img {
+      height: 250px;
+      width: 100%;
+  object-fit: cover;
+    }
+  }
+  
+  /* Tablets */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .home-section .carousel .slide img {
+      height: 400px;
+      width: 100%;
+  object-fit: cover;
+    }
+  }
+  
+  /* Desktops and larger screens */
+  @media (min-width: 992px) {
+    .home-section .carousel .slide img {
+      height: 600px;
+      width: 100%;
+      object-fit :none;
+      background-color: black;
+    }
+  }
+  
