@@ -5,6 +5,10 @@ const Contact = () => {
   return (
     <div id="contact" className="contact-section">
       <h1>Contact us</h1>
+      <p1>
+
+
+      </p1>
     </div>
   );
 };
